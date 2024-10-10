@@ -13,5 +13,26 @@
         <maven.compiler.target>17</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-    
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.24</version>
+            <!--Не дойдет до jar            -->
+            <scope>provided</scope>
+            <!--  Он будет в jar, но не используется в момент написания кода-->
+<!--            <scope>runtime</scope>-->
+            <!--(По умолчанию) Можно пользоваться в момент написания кода, попадет в jar            -->
+<!--            <scope>compile</scope>-->
+        </dependency>
+
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.7.3</version>
+            <scope>runtime</scope>
+        </dependency>
+    </dependencies>
+
 </project>

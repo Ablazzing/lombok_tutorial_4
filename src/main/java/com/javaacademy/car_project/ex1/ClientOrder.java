@@ -1,8 +1,6 @@
-package com.javaacademy.car_project;
+package com.javaacademy.car_project.ex1;
 
 import lombok.*;
-import lombok.experimental.Accessors;
-import lombok.experimental.FieldDefaults;
 
 //@AllArgsConstructor
 //@Getter

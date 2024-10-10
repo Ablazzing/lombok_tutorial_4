@@ -1,6 +1,4 @@
-package com.javaacademy.car_project;
-
-import lombok.RequiredArgsConstructor;
+package com.javaacademy.car_project.ex1;
 
 import java.math.BigDecimal;
 
